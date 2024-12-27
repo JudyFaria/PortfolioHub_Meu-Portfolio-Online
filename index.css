@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+
+    display: flex;
+    justify-content: space-between;
+
+    .info_header{
+
+        .btns_header{
+            display: flex;
+            justify-content: space-around;
+            
+            
+            border: 1px solid gray;
+            border-radius: 5px;
+
+            background: gray;
+
+            a{
+                text-decoration: none;
+                color: aliceblue;
+            }
+        }
+    }
+
+    img{
+        width: 500px;
+    }
+
+    border: 1px solid red;
+    margin: 10px;
+}
